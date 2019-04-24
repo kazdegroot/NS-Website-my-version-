@@ -13,62 +13,44 @@
 
 <body>
     <header class="header">
-        <div class="menu-left">
-            <nav clas="navigation">
-                <ul>
-                    <li>
-                        <img src="https://www.ns.nl/static/generic/2.44.0/images/nslogo.svg" alt="logo">
-                    </li>
-                    <li>
-                        <i class="fas fa-align-justify"></i>
-                        menu
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="menu-right">
-            <nav>
-                <ul>
-                    <li>
-                        <i class="fas fa-search"></i>
-                        zoeken</li>
-                    <li>
-                        <i class="far fa-user"></i>
-                        Mijn NS
-                    </li>
-                    <li>
-                        <img class="img" src="http://www.clker.com/cliparts/E/Y/R/g/F/J/united-kingdom-flag.svg.med.png"
-                            alt="flg">
-                        English
-                    </li>
-                </ul>
-            </nav>
-        </div>
+          <nav class="navigation">
+              <ul>
+                  <li>
+                      <img src="https://www.ns.nl/static/generic/2.44.0/images/nslogo.svg" alt="logo">
+                  </li>
+                  <li class="main-menu-item">
+                      <i class="fas fa-align-justify"></i>
+                      menu
+                  </li>
+                  <li>
+                      <i class="fas fa-search"></i>
+                      zoeken</li>
+                  <li>
+                      <i class="far fa-user"></i>
+                      Mijn NS
+                  </li>
+                  <li>
+                      <img class="flag" src="http://www.clker.com/cliparts/E/Y/R/g/F/J/united-kingdom-flag.svg.med.png"
+                          alt="flg">
+                      English
+                  </li>
+              </ul>
+          </nav>
     </header>
     <main>
     <section class="hero">
-        <img  class="hero-foto" src="https://www.ns.nl/binaries/_ht_1464610684168/large/content/gallery/ns-nl/carrousel-hero-afbeeldingen/ns-extra_1400x480.jpg"
+        <img class="hero-image" src="https://www.ns.nl/binaries/_ht_1464610684168/large/content/gallery/ns-nl/carrousel-hero-afbeeldingen/ns-extra_1400x480.jpg"
             alt="ns-foto">
-        <h3 class="her0-text">
-            Gratis 1e klas
-            upgrade bij NS
-            Extra
-        </h3>
-        <p>
-            Ervaar eenmalig de luxe van 1e klas
-            reizen.
-        </p>
-        <div>
-            <button class="button">
-                <p>
-                    Gratis aanmelden
-                </p>
-                <a href="https://www.ns.nl/uitgelicht/ns-extra"></a>
-            </button>
+        <div class="hero-content">
+            <h3>Gratis 1e klas upgrade bij NS Extra</h3>
+            <p>Ervaar eenmalig de luxe van 1e klas reizen.</p>
+            <a class="button" href="https://www.ns.nl/uitgelicht/ns-extra">
+              Gratis aanmelden
+            </a><br />
+            <a class="more-info" href="#">
+                > Meer informatie
+            </a>
         </div>
-        <p>
-            > Meer informatie
-        </p>
 
     </section>
     <section class="plan-uw-reis">
@@ -76,39 +58,37 @@
             Plan UW reis
         </h1>
         <div class="input">
-        <input class="input1" type="text" placeholder="Van adres, station of postcode">
-        <input class="input2" type="text" placeholder="naar adres, station of postcode">
-    </div>
-    <div>
-        <ul>
-            <li>Vetrek</li>
-            <li>Aankomst</li>
-            <li>Vandaag</li>
-            <li>22:59</li>
-            <li>Nu</li>
-        </ul>
-    </div>
-    <div class="buttons">
-        <ul>
-            <li class="button1">
-                <button>
-                        Meer opties
+            <input class="input1" type="text" placeholder="Van adres, station of postcode">
+            <input class="input2" type="text" placeholder="naar adres, station of postcode">
+        </div>
+        <div>
+            <ul>
+                <li>Vetrek</li>
+                <li>Aankomst</li>
+                <li>Vandaag</li>
+                <li>22:59</li>
+                <li>Nu</li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <ul>
+                <li class="button1">
+                    <button>
+                            Meer opties
+                    </button>
+                    
+                </li>
+                <li>
+                    <button>
+                    plannen >
                 </button>
-                
-            </li>
-            <li>
-                <button>
-                plannen >
-            </button>
-            </li>
-        </ul>
-    </div>
-        
-        
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section class="wrapper">
-        <div class="block1">
+    <section class="block-grid">
+        <div class="block">
             <h3 class="block1-title">producten
                 <img class="foto-2" src="download.jpg"alt="foto-2">
             </h3>
@@ -124,7 +104,7 @@
             </div>
 
         </div>
-        <div class="block2">
+        <div class="block">
             <h3>Klantenservice
                 <img  class="foto-3" src="download (1).jpg"alt="foto-3">
             </h3>
@@ -140,7 +120,7 @@
         </div>
 
         </div>
-        <div class="block3">
+        <div class="block">
             <h3>
                 Speciaal Voor...
                 <img class="foto-4" src="download (2).jpg"alt="foto-4">
@@ -158,14 +138,12 @@
 
         </div>
          </section>
-         <section class="container">
-                <div class="blok4">
-                    <p>
-                        Onze suggesties
-                    </p>
-                </div>
-                <div class="blok5">
-                    <img src="https://www.ns.nl/binaries/_ht_1554284880861/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/disney-parade-mickey-en-minnie.jpg"alt="foto-disney">
+         <section class="block-grid onze-suggesties">
+          <h1 class="section-header">Onze suggesties</h1>
+                <div class="block">
+                  <figure class="image-header">
+                    <img  src="https://www.ns.nl/binaries/_ht_1554284880861/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/disney-parade-mickey-en-minnie.jpg" alt="foto-disney">
+                  </figure>
                      <div>
                          <h3>
                                 Voor een magisch bedrag
@@ -179,33 +157,29 @@
                      </div>
                      
                 </div>
-                <div class="blok6">
+                <div class="block full-image">
                     <img src="https://www.ns.nl/binaries/_ht_1553869715734/vierkantmedium/content/gallery/ns-nl/banner-type-a-afbeeldingen/home/werving-trainees.jpg"alt="foto-training">
                     <h3>                        
                             Word trainee bij NS    </h3>
-                            <button> less meer > </button>
+                            <a class="button" href="#"> less meer > </a>
                 </div>
-                <div class="blok7">
-                    <img src="https://www.ns.nl/binaries/_ht_1552555722940/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/ns-app-campagne.jpg"alt="foto-ns-app">
+                <div class="block">
+                    <figure class="image-header">
+                    <img  src="https://www.ns.nl/binaries/_ht_1552555722940/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/ns-app-campagne.jpg"alt="foto-ns-app">
+                    </figure>
                     <h3>De NS-app. Je eigen reisplanner naar elk adres.</h3>
                     <p>Bekijk alle mogelijkheden van de app.</p>
                     <p> > less meer</p>
                 </div>
-                <div class="blok8">
-                    
-                </div>
-                <div class="blok9"></div>
-                <div class="blok10"></div>
-                <div class="blok11"></div>
-                <div class="blok12"></div>
-                <div class="blok13"></div>
-                <div class="blok14"></div>
-                <div class="blok15"></div>
-                <div class="blok16"></div>
-
-                
-                
-
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
+                <div class="block">Content here</div>
          </section>
         </main>
 
